@@ -179,7 +179,7 @@ body {
 
 /* image section */
 .image-gallary {
-    
+
     background-color: #FFF;
 
 }
@@ -225,4 +225,52 @@ body {
     height: 450px;
     border-radius: 16px;
     margin: 24px;
+}
+
+.mail-box {
+    width: 1320px;
+    height: 616px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+
+}
+
+.box-mail {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+
+}
+
+.Newsletter {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.Newsletter-one {
+    olor: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.sub-one {
+    border-radius: 50px;
+    background: #FFF;
+    width: 648px;
+    height: 72px;
+    align-content: center;
 }
