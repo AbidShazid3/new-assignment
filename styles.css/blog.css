@@ -12,9 +12,9 @@ body {
 .first-title {
     color: #FFF;
     text-align: center;
-    font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
+    padding: 177px 531px 0px 530px;
 }
 
 .second-title {
@@ -24,7 +24,7 @@ body {
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
-    padding
+    padding: 16px 344px 177px 344px;
 }
 
 .header {
@@ -113,7 +113,10 @@ body {
 #date-time {
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     text-align: center;
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1320px;
+    height: 482px;
 }
 
 .date-time-place {
@@ -121,7 +124,7 @@ body {
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
-    line-height: 56px;
+    line-height: 40px;
     padding: 100px 386px 0px 385px;
 }
 
@@ -134,4 +137,92 @@ body {
     font-weight: 700;
     padding: 16px 32px;
     gap: 10px;
+}
+
+/* sale-discount */
+
+.sale-discount {
+    background-color: #FFF;
+
+}
+
+.discount-sale {
+    text-align: center;
+
+}
+
+.what-is {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.holiday-sale {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    padding-top: 16px;
+}
+
+.dolar-amit {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 0px 126px 0 126px;
+}
+
+/* image section */
+.image-gallary {
+    
+    background-color: #FFF;
+
+}
+
+.image-gallary-two {
+    gap: 5px;
+    align-items: center;
+}
+
+.the-best {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 120px;
+}
+
+.our-awesome {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.sodales-risus {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.image-gallary-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-gallary-three img {
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    margin: 24px;
 }
