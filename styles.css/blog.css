@@ -63,7 +63,50 @@ body {
     font-weight: 700;
     margin-top: 10px;
 }
+
 .img-one {
     display: block;
     margin: auto;
+}
+
+.welcome-party {
+    padding: 230px 250px 243px 200px;
+    display: flex;
+    align-items: center;
+
+    background-image: url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: space-evenly;
+
+}
+
+.welcome-party .join-image {
+    width: 319.83px;
+}
+
+.fifth-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.dolar-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.banner-content {
+    max-width: 400px;
+}
+
+.join-now {
+    background-color: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+
 }
